@@ -1,0 +1,11 @@
+# v2.0 – Streamlit Dashboard
+
+Added interactive dashboard and time-based analysis.
+
+## Features
+- File upload interface
+- Requests per minute visualization
+- Bar charts for IP and status distribution
+- Improved analytics structure
+
+This version introduces monitoring-style visualization.

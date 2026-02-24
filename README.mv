@@ -1,0 +1,95 @@
+
+# Log Analyzer Dashboard
+
+A modular log analysis and threat detection system built using Python and Streamlit.
+
+This project parses Apache-style web server logs, performs statistical analysis, detects suspicious activity, and visualizes results in a security monitoring dashboard.
+
+---
+
+##  Features
+
+###  Log Analytics
+- Total requests
+- Top IP addresses
+- Status code distribution
+- Most requested endpoints
+- Requests per minute timeline
+
+### Threat Detection
+- Brute-force login detection
+- 404 reconnaissance detection
+- High request rate detection
+
+### Dashboard
+- File upload interface
+- Real-time visualization
+- Security alert panel
+- Clean dark monitoring UI
+
+---
+
+## Project Structure
+
+
+log-analyzer-dashboard/
+│
+├── current/
+├── versions/
+│   ├── v1.0/
+│   ├── v2.0/
+│   └── v3.0/
+│
+├── requirements.txt
+└── README.md
+
+---
+
+## Installation
+
+git clone https://github.com/YOUR_USERNAME/log-analyzer-dashboard.git
+cd log-analyzer-dashboard
+pip install -r requirements.txt
+
+---
+
+## Run CLI Version
+
+cd current
+python main.py
+
+---
+
+##  Run Dashboard
+
+cd current
+streamlit run dashboard_streamlit/app.py
+
+---
+
+## Versions
+
+* **v1.0** – CLI Log Analyzer
+* **v2.0** – Streamlit Dashboard with Time-Based Analytics
+* **v3.0** – Threat Detection Engine with Visual Alerts
+
+---
+
+## Project Purpose
+
+This project simulates a simplified Security Operations Center (SOC) monitoring system.
+It demonstrates log parsing, anomaly detection, backend modularity, and dashboard visualization.
+
+---
+
+## Future Improvements
+
+* Flask production dashboard (v4)
+* Threat scoring system
+* Report export (PDF/HTML)
+* Cloud deployment
+* Dockerization
+
+---
+
+Suryadev SR

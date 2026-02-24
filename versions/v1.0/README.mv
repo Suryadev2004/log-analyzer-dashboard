@@ -1,0 +1,12 @@
+
+# v1.0 – CLI Log Analyzer
+
+Initial release of the log analysis engine.
+
+## Features
+- Apache log parsing
+- IP analysis
+- Status code distribution
+- Endpoint frequency analysis
+
+This version focuses on backend parsing and analytics logic.

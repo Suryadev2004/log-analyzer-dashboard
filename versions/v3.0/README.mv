@@ -1,0 +1,14 @@
+# v3.0 – Threat Detection Engine
+
+Introduced rule-based security detection.
+
+## Detection Rules
+- Brute-force login attempts
+- 404 reconnaissance detection
+- High request rate detection
+
+## Improvements
+- Visual alert panel in dashboard
+- Modular detector architecture
+
+This version transforms the project into a security monitoring system.
